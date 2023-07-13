@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.autograd import Variable
-
+import os
 
 def train(epochNum):
     
@@ -120,6 +120,9 @@ plt.show()
 
 # Saving the model 
 modelDirectory = 'saved/'
+if (not os.path.isdir('saved')):
+    os.mkdir("saved")
+
 modelName = input("\nEnter the Model Name (default savedModel):")
 if modelName=='':
     modelName="savedModel"
