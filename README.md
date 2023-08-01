@@ -1,1 +1,1 @@
-# Imgage Recognition using python
+# Image Recognition using python
