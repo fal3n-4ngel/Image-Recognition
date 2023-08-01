@@ -1,1 +1,1 @@
-# ImgReg-
+# Imgage Recognition using python
